@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "lieseguy-aigcgen_jd093"
+name = "lieseguy-multi_tenant_memory_isolation_signature_match"
 version = "0.1.0"
 description = "通过字符级与结构级特征识别AIGC 内容生成工程师·多租户的显存隔离的痕迹，给出密度与命中位置"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://lieseguy.github.io"
-Repository = "https://github.com/lieseguy/aigcgen_jd093"
-Issues = "https://github.com/lieseguy/aigcgen_jd093/issues"
+Repository = "https://github.com/lieseguy/multi_tenant_memory_isolation_signature_match"
+Issues = "https://github.com/lieseguy/multi_tenant_memory_isolation_signature_match/issues"
 
 [project.scripts]
-aigcgen_jd093 = "aigcgen_jd093:main"
+multi_tenant_memory_isolation_signature_match = "multi_tenant_memory_isolation_signature_match:main"
 
 [tool.setuptools]
-py-modules = ["aigcgen_jd093"]
+py-modules = ["multi_tenant_memory_isolation_signature_match"]
